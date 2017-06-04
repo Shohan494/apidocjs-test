@@ -10,3 +10,6 @@
 
 - each time after some adding of documantation will require the command 'apidoc' for the changed output
 
+- created _apidoc.js file to start tracking the history
+
+- after that just copied and pasted the previous doc sections only and updated the doc newly in the main file

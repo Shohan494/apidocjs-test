@@ -6,13 +6,15 @@ var currentUser = {
  * @api {get}/user Request User information
  * @apiName getUser
  * @apiGroup User
- * @apiVersion 0.1.1
+ * @apiVersion 0.2.0
  *
- * @apiSuccess {String} name The users name.
+ * @apiSuccess {String} name The users name
+ * @apiSuccess {Number} age Calculated age from Birthday
  *
  * @apiSuccessExample Example data on success
  * {
- *   name: 'Shohan'
+ *   name: 'Shohan',
+ *   age: 24
  * }
  *
  */

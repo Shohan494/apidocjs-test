@@ -5,6 +5,43 @@ define({ "api": [
     "title": "Request User information",
     "name": "getUser",
     "group": "User",
+    "version": "0.2.0",
+    "success": {
+      "fields": {
+        "Success 200": [
+          {
+            "group": "Success 200",
+            "type": "String",
+            "optional": false,
+            "field": "name",
+            "description": "<p>The users name</p>"
+          },
+          {
+            "group": "Success 200",
+            "type": "Number",
+            "optional": false,
+            "field": "age",
+            "description": "<p>Calculated age from Birthday</p>"
+          }
+        ]
+      },
+      "examples": [
+        {
+          "title": "Example data on success",
+          "content": "{\n  name: 'Shohan',\n  age: 24\n}",
+          "type": "json"
+        }
+      ]
+    },
+    "filename": "./index.js",
+    "groupTitle": "User"
+  },
+  {
+    "type": "get",
+    "url": "/user",
+    "title": "Request User information",
+    "name": "getUser",
+    "group": "User",
     "version": "0.1.1",
     "success": {
       "fields": {
@@ -26,7 +63,7 @@ define({ "api": [
         }
       ]
     },
-    "filename": "./index.js",
+    "filename": "./_apidoc.js",
     "groupTitle": "User"
   },
   {
