@@ -1,5 +1,40 @@
 define({ "api": [
   {
+    "type": "put",
+    "url": "/user",
+    "title": "Change User",
+    "name": "PutUser",
+    "group": "User",
+    "version": "0.1.0",
+    "parameter": {
+      "fields": {
+        "Parameter": [
+          {
+            "group": "Parameter",
+            "type": "String",
+            "optional": false,
+            "field": "name",
+            "description": "<p>New name of the user</p>"
+          }
+        ]
+      }
+    },
+    "error": {
+      "fields": {
+        "Error 4xx": [
+          {
+            "group": "Error 4xx",
+            "optional": false,
+            "field": "NameEmptyError",
+            "description": "<p>The name was empty. Minimum <code>1</code> character is required</p>"
+          }
+        ]
+      }
+    },
+    "filename": "./index.js",
+    "groupTitle": "User"
+  },
+  {
     "type": "get",
     "url": "/user",
     "title": "Request User information",
