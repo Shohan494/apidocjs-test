@@ -13,3 +13,7 @@
 - created _apidoc.js file to start tracking the history
 
 - after that just copied and pasted the previous doc sections only and updated the doc newly in the main file
+
+- here's a screenshot until now:
+
+![Screenshot](http://i.imgur.com/odBXLny.png)
