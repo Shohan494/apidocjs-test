@@ -7,3 +7,6 @@
 - typed 'apidoc' command on terminal in the project folder
 
 - that created a folder named doc
+
+- each time after some adding of documantation will require the command 'apidoc' for the changed output
+
