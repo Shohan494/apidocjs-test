@@ -14,6 +14,8 @@
 
 - after that just copied and pasted the previous doc sections only and updated the doc newly in the main file
 
-- here's a screenshot until now:
+- here's the screenshots until now:
 
-![Screenshot](http://i.imgur.com/odBXLny.png)
+![Screenshot](http://i.imgur.com/DuVAt9W.png)
+
+![Screenshot](http://i.imgur.com/MnvCRUr.png)
